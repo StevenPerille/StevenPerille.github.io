@@ -1,0 +1,80 @@
+:root {
+    --text: #06070f;
+    --background: #f7f8fc;
+    --primary: #4b56b9;
+    --secondary: #d7999c;
+    --accent: #c6a66d;
+}
+
+body {
+    background-color: var(--background);
+    color: var(--text);
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 2.5rem;
+    border-bottom: 6px solid var(--accent);
+}
+
+h1 {
+    margin: 0;
+    letter-spacing: 2px;
+}
+
+nav {
+    background-color: var(--secondary);
+    text-align: center;
+    padding: 12px 0;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+nav a {
+    color: var(--text);
+    text-decoration: none;
+    font-weight: bold;
+    padding: 10px 20px;
+    display: inline-block;
+}
+
+nav a:hover {
+    background-color: var(--primary);
+    color: #FFFFFF;
+    border-radius: 4px;
+}
+
+#homehero {
+    height: 350px;
+    background-image: url('homehero.jpg');
+    background-size: cover;
+    background-position: center;
+    border-bottom: 4px solid var(--primary);
+}
+
+main {
+    max-width: 900px;
+    margin: 20px auto;
+    padding: 40px;
+    background-color: #FFFFFF;
+    line-height: 1.8;
+}
+
+h2 {
+    color: var(--primary);
+    border-left: 5px solid var(--secondary);
+    padding-left: 15px;
+}
+
+footer {
+    background-color: var(--text);
+    color: #FFFFFF;
+    text-align: center;
+    padding: 30px;
+    font-size: 0.85rem;
+    margin-top: 50px;
+}
